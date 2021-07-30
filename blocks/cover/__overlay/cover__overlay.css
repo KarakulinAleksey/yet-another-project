@@ -1,0 +1,10 @@
+.cover__overlay {
+  background-color: #2a2c2f;
+  opacity: 1;
+  background-size: cover;
+  transition: 0.35s;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+}

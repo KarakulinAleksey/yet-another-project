@@ -1,0 +1,33 @@
+.places__place {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 48px 40px;
+  grid-auto-rows: auto;
+  grid-auto-flow: row;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.places__place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    grid-gap: 48px 28px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .places__place {
+    grid-gap: 32px;
+    margin-bottom: 50px;
+  }
+}

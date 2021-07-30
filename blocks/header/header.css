@@ -1,0 +1,25 @@
+.header {
+  width: calc((((1280 - 48 * 2) / 1280) * 100%));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: calc((((1024 - 48 * 2) / 1024) * 100%));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc((((768 - 24 * 2) / 768) * 100%));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: calc((((320 - 16 * 2) / 320) * 100%));
+  }
+}
