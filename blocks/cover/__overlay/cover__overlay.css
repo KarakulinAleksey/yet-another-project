@@ -6,7 +6,8 @@
   transition: 0.35s;
   width: 100%;
   min-height: 740px;
-  position: relative;
+  /* position: relative; */
+  position: absolute;
   z-index: 1;
 }
 

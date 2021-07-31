@@ -1,4 +1,6 @@
 .cover {
+  text-decoration: none;
+  color: #fff;
   background-image: url(../../image/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
