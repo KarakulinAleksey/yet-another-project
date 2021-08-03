@@ -1,14 +1,15 @@
 .places__link {
   color: #fff;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: none;
   box-sizing: border-box;
+  text-decoration-line: underline;
 }
 
 .places__link:hover {
-  text-decoration-line: underline;
+  opacity: 0.8;
 }

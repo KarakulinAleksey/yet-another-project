@@ -1,12 +1,16 @@
 .places__paragraph {
   margin-top: 0;
-  margin-bottom: 26px;
-  font-family: Inter;
+  margin-bottom: 25px;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
   box-sizing: border-box;
+}
+
+.places__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
