@@ -8,7 +8,7 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .places__title {
     font-size: 42px;
     line-height: 46px;
@@ -21,5 +21,6 @@
     font-size: 32px;
     line-height: 35px;
     padding-left: 16px;
+    width: 300px;
   }
 }
